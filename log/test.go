@@ -2,6 +2,6 @@ package log
 
 import "fmt"
 
-func test()  {
+func Test()  {
 	fmt.Println("it's ok!")
 }
