@@ -3,7 +3,7 @@ package info
 import (
 	"runtime"
 	"fmt"
-	. "yanqh/file"
+	. "Y/file"
 	"strconv"
 )
 

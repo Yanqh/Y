@@ -2,7 +2,6 @@ package info
 
 import (
 	"time"
-	"yanqh/info"
 )
 
 
@@ -10,5 +9,5 @@ import (
 func ExeTime(t time.Time) {
 	exeTime := time.Since(t).String()
 	fmt := "Elapsed Time : " + exeTime
-	info.YPN1(fmt)
+	YPN1(fmt)
 }
